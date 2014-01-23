@@ -1,5 +1,5 @@
 ![PayPigs][logo]
 
-A web interface to a MySQL database of planning applications considered by Willingham Parish Council.
+A restaurant bill calculator for the Whistling Pigs Algorithm.
 
 [logo]: apple-touch-icon.png
