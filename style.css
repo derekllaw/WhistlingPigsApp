@@ -1,0 +1,161 @@
+/* General styles */
+body
+{
+  background:white;
+  background-image:url(pigback2000.jpg);
+}
+
+a:link    { color:blue; text-decoration:none }
+a:visited { color:teal; text-decoration:none }
+a:active  { color:maroon }
+a:hover   { color:red }
+
+img       { border:0 }
+
+/* Friendly Notice for non-compliant browsers */
+.ahem
+{
+  display:none;
+}
+
+/* Standard definitions */
+h1
+{
+  font-family:Times-Roman; font-size:36pt; font-weight:normal;
+  text-align:center;
+  border-bottom:solid;
+  border-bottom:medium,solid;
+}
+
+h2
+{
+  margin:0% 5% 0% 5%; /* top, right, bottom, left */
+  padding-left:3px;
+  background-color:aqua;
+  font-weight:normal;
+  font-size:larger;
+}
+
+h3, .h3
+{
+  margin:0% 5% 0% 5%; /* top, right, bottom, left */
+  padding-left:3px;
+  font-weight:normal;
+  font-size:larger;
+}
+
+p
+{
+  margin:0% 5% 1% 5%; /* top, right, bottom, left */
+  text-align:justify;
+}
+
+/* Specific Modifications */
+.motto
+{
+  padding-right:5%;
+  font-weight:bold;
+  font-style:oblique;
+  margin-bottom:5%;
+}
+
+.motto .author
+{
+  font-weight:normal;
+  font-style:normal;
+  text-align:right;
+  padding-left:20%;
+}
+
+.label, .content
+{
+  font-weight:bold;
+}
+
+.label
+{
+  text-align:right;
+}
+
+.content
+{
+  text-align:left;
+}
+
+.jump
+{
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.icon
+{
+  padding-left:5%;
+  float:right;
+}
+
+.floatleft
+{
+  float:left;
+  width:50%;
+}
+
+.floatright
+{
+  float:right;
+}
+
+table.Calendar
+{
+}
+
+table.Calendar th
+{
+  font-family: sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  border: 1px solid;
+  background-color:aqua;
+  text-align: center;
+}
+
+table.Calendar td
+{
+  background: white;
+  border: 1px solid;
+}
+
+table.Detail
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table.Detail th
+{
+  background: aqua;
+  font-family: sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.Detail td
+{
+  font-family: sans-serif;
+  font-size: 80%;
+}
+
+table.Polaroid
+{
+  background: white;
+  border: 1px solid;
+  margin: 5px;
+}
+
+table.Polaroid td
+{
+  background: white;
+  border: none;
+  padding: 5px;
+}
